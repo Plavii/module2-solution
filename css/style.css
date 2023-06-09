@@ -7,7 +7,6 @@
 .title{
     font-size: 1.75em;
     padding: 25px;
-    position: relative;
     text-align: center;
 }
 
@@ -15,18 +14,17 @@
     width: 100%;
 }
 
-article{
-    position: relative;
-}
 
 
 .item{
-    float: right;
+    position: relative;
+    left: 70%;
     min-height: 1.5em;
-    min-width: 30%;
+    width: 30%;
     text-align: center;
     font-size: 1.25em;
     border: 1px solid black;
+    overflow-wrap: break-word;
 }
 
 .pink{
@@ -42,11 +40,11 @@ article{
     background-color: #ffcc00;
 }
 .sizer{
-    margin: 1em 2em 1em 2em;
+    background-color: lightgrey;
+    margin: 0.75em 1em 0.75em 1em;
     border: 1px solid black;
 }
 .sizer > p{
-    background-color: lightgrey;
     font-size: 1em;
     padding: 0.5em;
 }
